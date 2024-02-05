@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/background_mobile.png);
+    height: 100vh;
+    font-family: poppins;
+    background-color: #ff7979;
+    
+}
+
+.text{
+    text-align: center;
+    color: white;
+    width: 90%;
+    padding-top: 439px;
+    
+}
+
+.text_p{
+    padding-top: 25px;
+}
+
+.first_section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 329px;
+    height: 100px;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 1px solid #5E54A4;
+    background-color: #5E54A4;
+    margin-top: 50px;
+}
+
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    background-color: white;
+    height: 500px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 12px;
+    padding-bottom: 23px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.input {
+    width: 290px;
+    height: 61px;
+    margin-top: 25px;
+    padding-left: 20px;
+    border:1.5px solid #DEDEDE;
+    border-radius: 8px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+
+
+button {
+    width: 290px;
+    height: 61px;
+    background: #38CC8B;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-size: 15px;
+    box-shadow: inset;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.finish_text {
+    width: 295px;
+    color: #A6A1CF;
+    text-align:center;
+    font-size: 13px;
+    padding-top: 15px;
+
+}
+
+.finish_text b{
+    color: #FF7979;
+}
+
+button:hover{
+    background: black;
+    color: #38CC8B;
+    transition: 0.8s;
+}
+
+
+.main_container span {
+    display: none;
+    align-self: flex-end;
+    font-size: 11px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-align: right;
+    margin: 2px 12% 0 0;
+    color: #ff7979;
+}
+
+
+.main_container img {
+    position: absolute;
+    right: 62px;
+    bottom: calc(6% - 10px)
+}
